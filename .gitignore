@@ -1,0 +1,10 @@
+# obsah a súkromné dáta z administrácie – nikdy do gitu
+data/*
+!data/.htaccess
+!data/index.html
+media/uploads/*
+!media/uploads/.gitkeep
+# lokálne pomocné súbory
+.DS_Store
+Thumbs.db
+*.tmp-*

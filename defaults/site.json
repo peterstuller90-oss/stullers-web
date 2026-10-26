@@ -1,0 +1,219 @@
+{
+ "walls": [
+  {
+   "id": "wall1",
+   "image": "media/garaz-festival.jpg",
+   "video": "media/garaz-festival.mp4",
+   "extraImages": [],
+   "title": {
+    "sk": "GARÁŽ FESTIVAL",
+    "en": "GARÁŽ FESTIVAL"
+   },
+   "desc": {
+    "sk": "Nástenná maľba inšpirovaná pohybom a farbami mesta. Vytvorená v spolupráci s miestnou komunitou počas letného festivalu.",
+    "en": "A mural inspired by the movement and colors of the city. Created together with the local community during a summer festival."
+   }
+  },
+  {
+   "id": "wall2",
+   "image": "media/interier.jpg",
+   "video": "",
+   "extraImages": [],
+   "fullImage": "media/interier-cela.jpg",
+   "title": {
+    "sk": "INTERIÉR",
+    "en": "INTERIOR"
+   },
+   "desc": {
+    "sk": "Interiér kaviarne oživený ručne maľovaným motívom na celú stenu. Farby a tvary sme prispôsobili priestoru aj jeho návštevníkom.",
+    "en": "A café interior brought to life with a hand-painted motif covering the whole wall. We adapted the colors and shapes to the space and its visitors."
+   }
+  },
+  {
+   "id": "wall3",
+   "image": "media/puchov.jpg",
+   "video": "",
+   "extraImages": [
+    "media/puchov-2.jpg",
+    "media/puchov-3.jpg"
+   ],
+   "title": {
+    "sk": "PÚCHOV",
+    "en": "PÚCHOV"
+   },
+   "desc": {
+    "sk": "Nástenná maľba na fasáde v Púchove, inšpirovaná mestskou architektúrou a jej detailmi.",
+    "en": "A mural on a facade in Púchov, inspired by the city's architecture and its details."
+   }
+  },
+  {
+   "id": "wall4",
+   "image": "media/garaz-festival.jpg",
+   "video": "",
+   "extraImages": [],
+   "title": {
+    "sk": "DETAIL",
+    "en": "DETAIL"
+   },
+   "desc": {
+    "sk": "Detail z jednej z našich obľúbených realizácií. Kombinujeme jednoduché línie s výraznou farebnosťou.",
+    "en": "A detail from one of our favorite projects. We combine simple lines with bold color."
+   }
+  },
+  {
+   "id": "wall5",
+   "image": "media/garaz-festival.jpg",
+   "video": "",
+   "extraImages": [],
+   "title": {
+    "sk": "VEREJNÝ PRIESTOR",
+    "en": "PUBLIC SPACE"
+   },
+   "desc": {
+    "sk": "Maľba vytvorená na verejnom priestranstve ako súčasť mestského festivalu. Motív sme ladili s okolitou architektúrou.",
+    "en": "A painting created in a public space as part of a city festival. We matched the motif to the surrounding architecture."
+   }
+  },
+  {
+   "id": "wall6",
+   "image": "media/garaz-festival.jpg",
+   "video": "",
+   "extraImages": [],
+   "title": {
+    "sk": "SPOLOČNÝ PROJEKT",
+    "en": "JOINT PROJECT"
+   },
+   "desc": {
+    "sk": "Spoločné dielo, na ktorom sme pracovali niekoľko dní od návrhu až po poslednú farbu. Výsledok je súčasťou verejného priestoru dodnes.",
+    "en": "A joint piece we worked on for several days, from the first sketch to the last brushstroke. The result is still part of the public space today."
+   }
+  },
+  {
+   "id": "wall7",
+   "image": "media/garaz-festival.jpg",
+   "video": "",
+   "extraImages": [],
+   "title": {
+    "sk": "POSLEDNÁ REALIZÁCIA",
+    "en": "LATEST PROJECT"
+   },
+   "desc": {
+    "sk": "Ukážka z jednej z posledných realizácií. Každý projekt začína spoločným návrhom konceptu s klientom.",
+    "en": "A glimpse of one of our latest projects. Every project starts with a shared concept design with the client."
+   }
+  }
+ ],
+ "workshops": [
+  {
+   "id": "ws1",
+   "image": "media/workshop.jpg",
+   "title": {
+    "sk": "MAĽOVANIE NA STENU",
+    "en": "WALL PAINTING"
+   },
+   "desc": {
+    "sk": "Praktický workshop, kde si každý účastník vyskúša techniky nástennej maľby pod naším vedením.",
+    "en": "A hands-on workshop where every participant tries out mural-painting techniques under our guidance."
+   }
+  },
+  {
+   "id": "ws2",
+   "image": "media/workshop.jpg",
+   "title": {
+    "sk": "FAREBNÉ KOMPOZÍCIE",
+    "en": "COLOR COMPOSITIONS"
+   },
+   "desc": {
+    "sk": "Zameriavame sa na prácu s farbou, kompozíciou a jednoduchými tvarmi, ktoré fungujú aj vo veľkom formáte.",
+    "en": "We focus on working with color, composition and simple shapes that also work at large scale."
+   }
+  },
+  {
+   "id": "ws3",
+   "image": "media/workshop.jpg",
+   "title": {
+    "sk": "TÍMOVÝ WORKSHOP",
+    "en": "TEAM WORKSHOP"
+   },
+   "desc": {
+    "sk": "Ideálne pre firmy a kolektívy — spoločné dielo posilňuje tímovú spoluprácu a zanechá trvalú stopu v priestore.",
+    "en": "Ideal for companies and teams — a shared piece strengthens teamwork and leaves a lasting mark in the space."
+   }
+  },
+  {
+   "id": "ws4",
+   "image": "media/workshop.jpg",
+   "title": {
+    "sk": "WORKSHOP PRE DETI",
+    "en": "WORKSHOP FOR KIDS"
+   },
+   "desc": {
+    "sk": "Zjednodušené techniky a bezpečné materiály prispôsobené mladším účastníkom, plné hravosti a farieb.",
+    "en": "Simplified techniques and safe materials adapted for younger participants, full of playfulness and color."
+   }
+  },
+  {
+   "id": "ws5",
+   "image": "media/workshop.jpg",
+   "title": {
+    "sk": "VONKAJŠÍ WORKSHOP",
+    "en": "OUTDOOR WORKSHOP"
+   },
+   "desc": {
+    "sk": "Tvorba priamo v exteriéri — na fasáde, plote či inom verejnom povrchu, podľa zadania klienta.",
+    "en": "Created directly outdoors — on a facade, a fence, or another public surface, based on the client's brief."
+   }
+  },
+  {
+   "id": "ws6",
+   "image": "media/workshop.jpg",
+   "title": {
+    "sk": "FIREMNÝ EVENT",
+    "en": "CORPORATE EVENT"
+   },
+   "desc": {
+    "sk": "Kombinácia teambuildingu a tvorivej dielne, ktorú si účastníci odnesú ako spoločný umelecký výstup.",
+    "en": "A combination of team building and a creative workshop that participants take away as a shared artistic result."
+   }
+  }
+ ],
+ "illustrations": [],
+ "graphicDesign": [],
+ "shop": {
+  "image": "media/rabbit-print.jpg",
+  "badge": {
+   "sk": "Limitovaná edícia",
+   "en": "Limited edition"
+  },
+  "title": {
+   "sk": "Grafika „Rabbit“",
+   "en": "“Rabbit” print"
+  },
+  "desc": {
+   "sk": "Autorská ilustrácia Štullers vytlačená na hrubom matnom papieri, formát A3. Každý kus je podpísaný a číslovaný.",
+   "en": "An original Štullers illustration printed on heavy matte paper, A3 format. Each piece is signed and numbered."
+  },
+  "price": "10 €",
+  "note": {
+   "sk": "Formát A3 (29,7 × 42 cm) · tlač na 250g matnom papieri · posielame do 5 pracovných dní",
+   "en": "A3 format (29.7 × 42 cm) · printed on 250g matte paper · shipped within 5 business days"
+  }
+ },
+ "about": {
+  "image": "media/garaz-festival.jpg",
+  "paragraphs": [
+   {
+    "sk": "Sme Štullers — manželský umelecký duo. Tvoríme veľkoformátové nástenné maľby, ilustrácie a autorskú grafiku, a radi vedieme aj kreatívne workshopy.",
+    "en": "We are Štullers — a husband-and-wife artist duo. We create large-format murals, illustrations and original prints, and we also love running creative workshops."
+   },
+   {
+    "sk": "Každý projekt začíname spoločným návrhom konceptu s klientom a pokračujeme až po poslednú farbu na stene.",
+    "en": "Every project starts with a shared concept design with the client, and we see it through to the very last color on the wall."
+   },
+   {
+    "sk": "Foto čoskoro doplníme skutočnou fotkou dua — toto je zatiaľ len dočasný obrázok.",
+    "en": "We'll add a real photo of the two of us here soon — this is just a temporary placeholder for now."
+   }
+  ]
+ }
+}

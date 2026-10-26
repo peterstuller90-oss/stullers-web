@@ -1,0 +1,71 @@
+ŠTULLERS – WEB S ADMINISTRÁCIOU (pre Websupport)
+=================================================
+
+Čo je v balíku
+--------------
+index.php        verejný web (vloží zverejnený obsah do šablóny)
+web.html         šablóna webu: dizajn, hra, animácie (neotvára sa priamo)
+admin/           administrácia – otvoríš ju na adrese .../admin/
+api/             serverová časť (PHP)
+media/           fotky a video webu, media/uploads/ = nahraté súbory
+data/            obsah, koncept, história, rebríček, zadania (zamknuté pre prehliadač)
+defaults/        pôvodný obsah webu pre prvé spustenie (zamknuté)
+.htaccess        nastavenia servera (súbor začína bodkou – v správcovi súborov ho môžeš mať skrytý)
+
+Požiadavky: PHP 7.4 alebo novšie (odporúčam PHP 8.x), rozšírenie fileinfo, zapnuté SSL (HTTPS).
+
+
+1) NAHRATIE NA HOSTING
+----------------------
+1. Rozbaľ zip u seba v počítači.
+2. Vo Websupporte (správca súborov alebo FTP) nahraj CELÝ OBSAH priečinka
+   – na testovaciu adresu (napr. subdoménu alebo priečinok /novy-web/), alebo
+   – priamo do koreňa domény stullerscreative.com (priečinok web/ alebo public_html/ podľa Websupportu).
+   Balík funguje v hocijakom priečinku, nič netreba prepisovať.
+3. Dôležité: nahraj aj súbory začínajúce bodkou (.htaccess) – v koreni, v data/, defaults/ a media/.
+4. Priečinky data/ a media/uploads/ musia byť zapisovateľné (Websupport to tak má predvolene).
+5. Vo Websupporte zapni SSL certifikát pre doménu, aby web aj administrácia bežali cez https://.
+
+
+2) PRVÉ SPUSTENIE ADMINISTRÁCIE
+-------------------------------
+1. Otvor v prehliadači https://(adresa webu)/admin/
+2. Administrácia si vypýta INŠTALAČNÝ KÓD. Vytvorí ho sama pri prvom otvorení:
+   v správcovi súborov otvor súbor data/INSTALACNY-KOD.txt a kód odtiaľ skopíruj.
+   (Kód chráni administráciu, aby si heslo nemohol nastaviť nikto cudzí.)
+3. Nastav heslo (aspoň 10 znakov). Je to jeden spoločný účet pre vás oboch.
+   Súbor s kódom sa potom sám zmaže. Heslo sa ukladá len ako odtlačok, nie ako text.
+4. Zabudnuté heslo: zmaž cez správcu súborov súbor data/auth.data.php
+   a otvor /admin/ znova – vytvorí sa nový inštalačný kód.
+
+
+3) AKO SA PRACUJE S OBSAHOM
+---------------------------
+- Všetko, čo upravíš, sa priebežne ukladá ako KONCEPT. Návštevníci ho nevidia.
+- Náhľad ukáže web s konceptom (prepínač Počítač / Mobil).
+- Zverejniť pošle koncept na web. Predchádzajúca verzia sa uloží do Histórie verzií.
+- História verzií: ktorúkoľvek staršiu verziu vrátiš jedným klikom.
+- Zahodiť koncept vráti administráciu na to, čo je teraz na webe.
+- Zmazané projekty a produkty sú 30 dní v koši.
+- Vypnutie menu (Hra a menu) platí hneď, bez zverejňovania.
+
+
+4) MOCKUPY V OBCHODE
+--------------------
+Obchod → produkt → Mockupy. Nič sa negeneruje, kým nestlačíš „Vytvoriť mockupy“.
+Vždy uvidíš dvojicu A (čistá biela) a B (jemná krémová). Tieň a veľkosť printu sú samostatné voľby.
+Vybrať → Potvrdiť pre e-shop → mockup sa uloží do konceptu → na web ide až po Zverejniť.
+Originál ilustrácie sa nikdy neupravuje. Krémový papier pod kresbou funguje pri PNG s priehľadným pozadím.
+
+
+5) ČO SKONTROLOVAŤ PO NAHRATÍ
+-----------------------------
+- Web sa otvorí a vyzerá ako doteraz, hra hrá a znie.
+- https://(adresa)/data/published.data.php a .../web.html sa NESMÚ otvoriť (chyba 403 alebo prázdna stránka).
+- Pošli si skúšobné zadanie workshopu a over, že e-mail prišiel na adresu z Globálnych prvkov.
+  Ak nepríde, skontroluj spam a nastav vo Websupporte SPF/DKIM pre doménu.
+
+
+6) ZÁLOHA
+---------
+Celý obsah webu je v priečinkoch data/ a media/. Ich stiahnutie = kompletná záloha.

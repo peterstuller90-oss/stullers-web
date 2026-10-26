@@ -1,0 +1,22 @@
+# Štullers – nastavenia pre Websupport (Apache)
+DirectoryIndex index.php
+Options -Indexes
+
+# šablónu a predvolený obsah otvára len index.php, nie prehliadač
+<FilesMatch "^(web\.html)$">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# fotky a video sa môžu dlhšie držať v pamäti prehliadača (názvy nahraných súborov sú vždy nové)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType video/mp4 "access plus 30 days"
+</IfModule>
